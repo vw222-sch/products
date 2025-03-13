@@ -9,7 +9,18 @@ table{
 }
 
 button{
+    color: white;
     display: block;
+    background-color: orange;
+}
+
+button.delete {
+    background-color: red;
+}
+
+thead * {
+    background-color: rgb(18, 89, 255);
+    color: white;
 }
 
 @media screen and (max-width: 600px) {
