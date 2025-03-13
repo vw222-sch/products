@@ -1,0 +1,19 @@
+table, th, tr, td{
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+}
+
+table{
+    width: 80%;
+    margin: auto;
+}
+
+button{
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+    th, td{
+        font-size: 0.7em;
+    }
+}
