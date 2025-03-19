@@ -1,17 +1,42 @@
+* {
+    margin: 0;
+    font-family: 'Inter';
+}
+body {
+    background-color: lightgray;
+}
 table, th, tr, td{
     border: 1px solid lightgray;
     border-collapse: collapse;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+th {
+    padding: 5px;
 }
 
 table{
     width: 80%;
     margin: auto;
+    margin-bottom: 3rem;
+}
+
+h1 {
+    text-align: center;
 }
 
 button{
     color: white;
     display: block;
     background-color: orange;
+    border: 0;
+    padding: 5px;
+    margin: 3px;
+}
+
+table button {
+    width: calc(100% - 6px);
 }
 
 button.delete {
@@ -21,6 +46,11 @@ button.delete {
 thead * {
     background-color: rgb(18, 89, 255);
     color: white;
+}
+
+.new button {
+    border: 1px solid black;
+    padding: 8px;
 }
 
 @media screen and (max-width: 600px) {
